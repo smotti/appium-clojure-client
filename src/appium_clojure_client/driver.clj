@@ -9,6 +9,10 @@
            (org.openqa.selenium OutputType)
            (org.openqa.selenium.remote DesiredCapabilities)))
 
+(defn close-app
+  [driver]
+  (.closeApp driver))
+
 (defn launch-app
   [driver]
   (.launchApp driver))
