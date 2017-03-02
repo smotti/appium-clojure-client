@@ -9,6 +9,10 @@
            (org.openqa.selenium OutputType)
            (org.openqa.selenium.remote DesiredCapabilities)))
 
+(defn launch-app
+  [driver]
+  (.launchApp driver))
+
 (defn- make-desired-capabilities
   [capabilities]
   (let [desiredCapabilities (DesiredCapabilities.)]
