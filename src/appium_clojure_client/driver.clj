@@ -1,10 +1,12 @@
 (ns appium-clojure-client.driver
-  (:require [camel-snake-kebab.core :refer [->camelCase]])
+  (:require [camel-snake-kebab.core :refer [->camelCase]]
+            [clojure.java.io :refer [copy file]])
   (:import (java.net URL)
            (io.appium.java_client AppiumDriver)
            (io.appium.java_client.android AndroidDriver)
            (io.appium.java_client.ios IOSDriver)
            (io.appium.java_client.windows WindowsDriver)
+           (org.openqa.selenium OutputType)
            (org.openqa.selenium.remote DesiredCapabilities)))
 
 (defn- make-desired-capabilities
@@ -48,3 +50,9 @@
 (defn stop-driver
   [driver]
   (.quit driver))
+
+(defn take-screenshot-as-file
+  [driver dst]  
+  (let [src (.getScreenshotAs driver OutputType/FILE)
+        dst-file (file dst)]
+    (copy src dst-file)))
