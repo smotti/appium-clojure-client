@@ -1,4 +1,4 @@
-(ns appium-clojure-client.navigation
+(ns appium-clojure-client.navigate
   (:import (io.appium.java_client.android AndroidKeyCode AndroidDriver)
            (io.appium.java_client.ios IOSDriver)
            (io.appium.java_client.windows WindowsKeyCode WindowsDriver)))
