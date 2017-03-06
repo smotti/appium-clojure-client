@@ -40,5 +40,30 @@
 <node CREATED="1488341932218" ID="ID_55117541" MODIFIED="1488341943526" TEXT="Terminate the WebDriver"/>
 </node>
 </node>
+<node CREATED="1488415511031" ID="ID_1735158494" MODIFIED="1488415536936" POSITION="left" TEXT="Namespaces">
+<font BOLD="true" NAME="SansSerif" SIZE="15"/>
+<icon BUILTIN="info"/>
+<icon BUILTIN="password"/>
+<node CREATED="1488415538415" ID="ID_500517856" MODIFIED="1488415556327" TEXT="driver">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1488415561255" ID="ID_946844617" MODIFIED="1488415596251" TEXT="Definitions for creating and managing a WebDriver instance"/>
+</node>
+<node CREATED="1488415598824" ID="ID_1526758685" MODIFIED="1488415603895" TEXT="find">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1488415605136" ID="ID_1581003818" MODIFIED="1488415623212" TEXT="Definitions for finding elements in different ways"/>
+</node>
+<node CREATED="1488415627104" ID="ID_1903533743" MODIFIED="1488415630984" TEXT="element">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1488415632032" ID="ID_1637745968" MODIFIED="1488415672180" TEXT="Definitions for getters/setters of element properties, and actions that either can be performed on an element or performed by an element"/>
+</node>
+<node CREATED="1488415674688" ID="ID_992921249" MODIFIED="1488415680896" TEXT="device">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1488415682201" ID="ID_1092726507" MODIFIED="1488415713413" TEXT="Definitions for device related properties/actions (i.e. clicking the back button, opening the menu,...)"/>
+</node>
+<node CREATED="1488442509176" ID="ID_1101200125" MODIFIED="1488502323328" TEXT="navigate">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1488442519872" ID="ID_1404679758" MODIFIED="1488442537764" TEXT="Definitions for performing navigation actions"/>
+</node>
+</node>
 </node>
 </map>
